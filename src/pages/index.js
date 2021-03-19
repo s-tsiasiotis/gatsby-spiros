@@ -13,7 +13,10 @@ const IndexPage = () => (
       quality={95}
       formats={["AUTO", "WEBP", "png"]}
       alt="Spiros Tsiasiotis Diamond Logo"
-      style={{ marginBottom: `1.45rem` }}
+      style={{
+        marginBottom: `1.45rem`,
+        width: `100%`
+      }}
     />
   </Layout>
 )
